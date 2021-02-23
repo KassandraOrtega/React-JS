@@ -1,0 +1,16 @@
+function discountPrices(prices, discount){
+    var discounted = [];
+    for (var i = 0; i < prices.length; i++){
+        var discountPrice = prices[i] * ( 1 - discount);
+        var finalPrice = Math.round(discountPrice * 100) / 100;
+        discounted.push(finalPrice);
+    }
+
+    console.log(i);
+    console.log(discountPrice);
+    console.log(finalPrice);
+
+    return discounted;
+}
+
+discountPrices([100,200, 300], .5);

@@ -1,0 +1,5 @@
+function criticalFunction(){
+    
+}
+
+thirdPartyLib(criticalFunction)

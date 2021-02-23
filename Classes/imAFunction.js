@@ -1,0 +1,2 @@
+function imAFunction(){}
+imAFunction.prototype
